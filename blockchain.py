@@ -71,7 +71,7 @@ class Blockchain:
             count += 1
 
 
-#use blockchain
+#main
 blockchain = Blockchain()
 
 control = 1
