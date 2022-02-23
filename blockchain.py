@@ -116,7 +116,7 @@ while control == 1:
         chain = blockchain.chain
         if len(chain) == 1:
             print()
-            print(Fore.RED + "System message: Chain still empty, go add somthing to to the chain")
+            print(Fore.RED + "System message: Chain still empty, go add somthing to the chain")
         else:
             if blockchain.is_chain_valid(chain, count1 = 0, count2 = 1):
                 print()
@@ -142,3 +142,4 @@ while control == 1:
     #when input is put of bound
     else: 
         print(Fore.RED + "\nSystem message: Input must be in choices!")
+#test comment
